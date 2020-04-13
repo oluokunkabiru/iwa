@@ -1,0 +1,405 @@
+body{
+    padding: 2px;
+    margin: 20px;
+}
+
+/* style the navbar link */
+a.nav-link{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+}
+a.navbar-brand img{
+    background-color: hite;
+    width: 100px;
+}
+a.nav-link:hove{
+    background-color: teal;
+    color: white;
+    border-bottom: blue solid 5px;
+    transition: ease-in 0.6s;
+}
+/* style the navbar */
+.headernav{
+    background-color: gray;
+    color: white;
+    text-align: center;
+
+}
+@media screen and (max-width:768px){
+    body{
+        padding: 0px;
+        margin: 1px;
+    }
+    /* .headernav{
+        text-align: center;
+        float: left;
+        width: 100%;
+    
+    } */
+    .dropdown-menu{
+        float: right;
+        width: 100%;
+
+    }
+   .headernav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: inline;
+    }
+   .headernav li{
+        float: left;
+    }
+    a.nav-link{
+        text-decoration: none;
+        font-size:9px;
+        /* display: inline; */
+    }
+    a.navbar-brand img{
+        padding: 0px;
+        margin: 0px;
+        width: 35px;
+    }
+     .welcome_note{
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+        float:left;
+     }
+     li.nav-item.active{
+         /* display: inline; */
+         float: left;
+         background-color: re;
+    }
+    .welcome_note li h1{
+        text-decoration: none;
+        list-style-type: none;
+        font-size: 30px;
+    }
+    .welcome_note li a{
+        text-decoration: none;
+        width: 100%;
+        font-size: 20px;
+    }
+    .typing{
+        text-align: center;
+    }
+    .capdata{
+        background-image: linear-gradient(rgba(255,0,0,0.3), rgba(241, 87, 10, 0.467));
+        background-size: 100%;
+        /* width: 100%; */
+        margin: 0px;
+        font-size: 6px;
+
+    }
+    .capdata h2{
+        font-size: 6px;
+    }
+    .capdata h4{
+        font-size: 20px;
+    }
+
+
+}
+li.nav-item.active{
+    border-bottom: white 3px dotted;
+}
+.welcome_note{
+   background-color: ray;
+
+}
+.welcome_note li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.welcome_note li a{
+    text-decoration: none;
+}
+.typing{
+    text-align: center;
+}
+.direct span{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 30px;
+}
+.capdata{
+    background-image: linear-gradient(rgba(255,0,0,0.3), rgba(241, 87, 10, 0.467));
+    background-size: 100%;
+}
+.capdata h2{
+    font-size: 60px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 500px;
+}
+
+.farm_img img{
+    width: 400px;
+    height: 200px;
+}
+.farms{
+    background-image: linear-gradient(rgba(0,255,0,0.3),rgba(0,0,25,0.7)), url(../images/tractor4.jpg);
+    text-align: center;
+    color: white;
+}
+.about_intro{
+    text-align: center;
+    padding: 2%;
+    margin: 0%;
+    background-color: turquoise;
+    font-size: 20px;
+}
+.about_intro:hover{
+    transition: ease-in;
+    transition-duration: 2s;
+    color: white;
+}
+.about_intro a .btn{
+    font-size: 20px;
+    color: white ;
+}
+.about_intro h1{
+    transition: ease-out 1s;
+    color: white;
+    font-size: 60px;
+}
+@media screen and (max-width:760px){
+    .history{
+        background-image: linear-gradient(rgba(0, 25, 8,0.9), rgba(0,0,56, 0.5)), url(../images/asode2.jpg);
+        background-size: 100%;
+        padding: 1%;
+        background-repeat:no-repeat;
+        font-size: 20px;
+    }
+    .history h1{
+        text-align: center;
+        color: white;
+        font-size: 30px;
+    }
+    .town_history{
+        color: white;
+    }
+    .town_history_item{
+        margin-left: 100px;
+    }
+    /* .service-h-tab .nav-tabs>a {
+        margin: 0px 0px 0px 25p;
+        border-radius: 100px;
+        width: 190px;
+        text-align: center;
+        height: 55px;
+        line-height: 40px;
+        border: 1px solid #ddd;
+    } */
+    
+}
+.history{
+    background-image: linear-gradient(rgba(0, 25, 8,0.9), rgba(0,0,56, 0.5)), url(../images/asode2.jpg);
+    background-size: 100%;
+    padding: 1%;
+}
+.history h1{
+    text-align: center;
+    color: white;
+}
+.town_history{
+    color: white;
+}
+/* .town_history li a{
+    background-color: white;
+    border: lightblue 2px solid;
+    color: black;
+    font-size: 20px;
+    border-radius: 15px;
+} */
+.town_history li a:hover{
+    background-color: lightblue;
+    color: white;
+}
+a .cont{
+    font-size: 20px;
+    float: right;
+}
+
+.service-h-tab .nav-tabs>a {
+    margin: 0px;
+    border-radius: 0;
+    width: 190px;
+    text-align: center;
+    height: 55px;
+    line-height: 40px;
+    border: 1px solid #ddd;
+}
+
+.service-h-tab .nav-tabs>a.active {
+    color: #fff;
+    border: 1px solid blue;
+    background: blue;
+}
+
+.service-h-tab .tab-content .tab-pane {
+    padding: 20px 20px 0px 10px;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .service-himg {
+        background: #fff;
+        height: 475px;
+        margin: auto;
+    }
+    #service-h .col-md-6 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%!important;
+    }
+    .service-himg iframe {
+        height: 370px;
+        width: 100%;
+        margin: 50px auto 70px auto;
+        box-shadow: 3px 3px 8px 1px #505050;
+        border: 1px solid green;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .service-himg iframe {
+        height: 370px;
+        width: 100%;
+        box-shadow: 3px 3px 8px 1px #505050;
+        border: 1px solid green;
+    }
+}
+.about_cont{
+    background-image: linear-gradient(rgba(0,25,0,0.5), rgba(0, 0,200,0.1)),url(../images/yam.png) ;
+    background-size: 100%;
+    margin-top: 20px;
+}
+.about_cont h1{
+    font-size: 60px;
+    color: white;
+    margin: 1px 250px 1px 250px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: black;
+}
+.about_cont p{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.story_container{
+    margin-top: 5px;
+}
+.story h1{
+    background-color: gray;
+    text-align: center;
+    border-radius: 10px;
+}
+.story{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.town_story img{
+    height: 300px;
+    
+}
+@media (min-width: 768px) and (max-width: 991px)
+ {    .town_story img{
+        height: 200px;
+    }   
+}
+.ayetoro_king table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.town_story h3{
+    text-align: center;
+}
+.oriki{
+    margin: 0 20% 0 20%;
+}
+@media screen and (max-width: 768px){
+    .oriki{
+         padding: 0%;
+        margin-left: -10px;
+        display: inline;
+   }
+   .town_story h1{
+    text-align: center;
+    
+}
+}
+.contact_us{
+    background-image: linear-gradient(#0ff8, #3248), url(../images/asode2.jpg);
+    background-size: 100%;
+    margin: 20px;
+    padding: 20px;
+}
+@media screen and (max-width:768px){
+    .cont_form{
+        margin: 60px;
+        padding: 40px;
+    }
+    .add{
+        display: none;
+    }
+}
+.cont_form{
+    padding: 2px;
+}
+.address{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.product_container{
+    /* margin: 10px; */
+    text-align: center;
+}
+.product_container p{
+    text-align: left;
+}
+.product{
+     /* border: black 1px solid; */
+     height: 450px;
+}
+.product img{
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+}
+.town_event{
+    background-image: linear-gradient(#234,#8865);
+}
+.event{
+    /* text-align: center; */
+    background-color: lightcyan;
+}
+.event a{
+    line-height:2;
+    text-align: justify;
+    padding-left: 40px;
+    text-decoration: none;
+}
+.chair{
+    width: 300px;
+    /* float: left; */
+}
+.speech{
+    width: 100%;
+
+}
+.more{
+    color: white;
+}
+.more a{
+    color: white;
+}
